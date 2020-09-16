@@ -1,0 +1,46 @@
+{ "Intents": [
+	{"tag": "greeting"
+	  "question": ["Hello","hi", "Good morning", "Good afternoon", "Good evening", "Heey", "Hey", "whats up"]
+	  "response: [ "Hello", "nice to meet you", "Good morning to you too", "Good afternoon to you too", "Good evening to you too"]
+	  },
+	
+	  { "tag" : "name"
+                       "response": ["What is your name?", " can you please tell me your name"]
+	   },
+		
+	   { "tag":"age"
+	      "response": [ " what is your age?", "How old are you", "Please give me your age"]
+	    },
+
+	    { "tag": "appointment"
+	       "question": [ "i want to book an appointment", " i want to book a meeting", "Can i have an appointment?", "i want to book a consultation"]
+	       "response": [ "Ok, how may i help you?", "when do you want the appointment?", "Whom do you want to consult?",
+		         "when do you want to meet?", ]
+	   },
+
+	   { "tag":"schedule":
+	      "question":  ["how many hours do you operate?", "When are you open?", "Do you open on Saturday and Sunday?", " i want to book during the week",
+	                        "When is the best time for consultation?", " What is your schedule?", 'What time do you operate?",]
+	     "response": [" We operate from Monday - Friday", " The hours are from 9am to 5pm", "Yes, we operate on Sartuday and Sunday", 
+	                          " It's ok to consult during the week.", ]
+	    },
+	
+	    { "tag": "doctors"
+                         "question": [ "i want to see a doctor.", " i want to consult with a doctor"]
+	      "response": [" what doctor do you want to see?", " There are doctors available, just say what help you need", " whom do you want to meet" ]
+	     },
+ 
+ 	     { "tag": "goodbye"
+                          "question": [ " Thamk you", Thanks a lot", "Thanks"]
+                          "response": [ "ok, have a good day", "ok, have a good evening", " see you later , then", "Alright"]
+	     },
+
+	     { "tag" : "confirmation"
+      	        "response":[ "Do you have any questions?", " can i assist you with anything else?", "are you satisfied?", "Any inquiries?"]
+      	        "question": [ "No", "Yes"]
+	     }
+                  ]
+      }
+	        
+
+
